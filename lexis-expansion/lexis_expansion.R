@@ -4,7 +4,7 @@ library(data.table)
 # load example data
 # -----------------
 
-d <- fread('https://raw.githubusercontent.com/danlewer/life-expectancy-mh/main/lexis-expansion/example_individual_data.csv')
+d <- fread('https://raw.githubusercontent.com/danlewer/mental-health-life-expectancy/main/lexis-expansion/example_individual_data.csv')
 # format dates
 date_cols <- c('entry_date', 'exit_date')
 d[, (date_cols) := lapply(.SD, as.Date), .SDcols = date_cols]

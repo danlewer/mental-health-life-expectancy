@@ -1,4 +1,4 @@
-exposure,ag,gender,years_fu,external_accident,external_suicide,other,total
+exposure,age,gender,years_fu,external_accident,external_suicide,other,total
 FALSE,18,female,1045.106091718,0,0,1,1
 FALSE,18,male,1381.64544832307,0,1,0,1
 FALSE,19,female,1843.64134154689,0,0,0,0
